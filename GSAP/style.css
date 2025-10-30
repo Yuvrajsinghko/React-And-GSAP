@@ -1,20 +1,21 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-    color: aliceblue;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: aliceblue;
 }
 
-html,body{
-    height: 100%;
-    width: 100%;
+html,
+body {
+  height: 100%;
+  width: 100%;
 }
 
-body{
-    background-color: black;
+body {
+  background-color: black;
 }
-#box1{
+/* #box1{
     height: 200px;
     width: 200px;
     background-color: coral;
@@ -29,13 +30,32 @@ body{
     height: 200px;
     width: 200px;
     background-color:rgb(18, 227, 254);
-}
+} */
 
-
-#box{
+/* #box{
     position: absolute;
     height: 300px;
     width: 300px;
     background-color: coral;
     top: 10%;
+} */
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+}
+
+#part2 {
+  display: flex;
+  gap: 50px;
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 100px;
 }
