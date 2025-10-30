@@ -13,8 +13,14 @@ html,body{
 body{
     background-color: black;
 }
-#box{
+#box1{
     height: 300px;
     width: 300px;
     background-color: coral;
+}
+
+#box2{
+    height: 300px;
+    width: 300px;
+    background-color:cornflowerblue;
 }
