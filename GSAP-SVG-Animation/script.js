@@ -6,7 +6,7 @@ let finalPath = `M 10 100 Q 450 100 890 100`;
 let string = document.querySelector("#string");
 
 string.addEventListener("mousemove",function(event){
-    initialPath = `M 10 100 Q 450 ${event.y} 890 100`
+    initialPath = `M 10 100 Q ${event.x} ${event.y} 890 100`
 
     gsap.to("svg path",{
         attr:{d:initialPath},
@@ -20,8 +20,10 @@ string.addEventListener("mousemove",function(event){
 string.addEventListener("mouseleave",function(){
     gsap.to("svg path",{
         attr:{d:finalPath},
-        duration:0.5,
-        ease:"slactic.out(1,0.2)"
+        duration:1.5,
+        ease:"elastic.out(1.2,0.1)"
     });
 });
+
+
 
