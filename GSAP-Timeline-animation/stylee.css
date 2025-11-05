@@ -9,5 +9,37 @@ html,
 body {
   height: 100%;
   width: 100%;
-  
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background-image: url("https://images.unsplash.com/photo-1762216443831-e2b039de23a8?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8NnNNVmpUTFNrZVF8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=60&w=600");
+  background-size: cover;
+  background-position: center;
+}
+
+#nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 50px;
+}
+#nav h2{
+  font-size: 30px;
+
+}
+
+#nav i{
+  font-size: 30px;
+  font-weight: 800;
+}
+
+#full{
+  position: absolute;
+  height: 100%;
+  width:40%;
+  background-color: coral;
+  top: 0;
+  right: 0;
 }
