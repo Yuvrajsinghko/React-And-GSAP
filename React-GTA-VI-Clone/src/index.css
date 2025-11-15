@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+body{
+  font-size: 4vw;
+  background-color: peru;
+}
