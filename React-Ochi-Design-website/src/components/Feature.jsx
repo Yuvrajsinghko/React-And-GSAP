@@ -10,7 +10,10 @@ const Feature = () => {
       </div>
       <div className="px-20">
         <div className="cards w-full flex gap-10 mt-20">
-          <div className="cardcontainer w-1/2 h-[80vh]  ">
+          <div className=" relative cardcontainer w-1/2 h-[80vh]  ">
+            <h1 className="absolute text-[#CDEA68] z-[9] -translate-x-1/2 top-1/2 -translate-y-1/2 left-full font-['TestFoundersGroteskX-Condensed'] font-bold leading-none tracking-tighter text-8xl">
+              {"FYDE".split('').map((item,index) => <span>{item}</span>)}
+            </h1>
             <div className="card w-full h-full rounded-xl  overflow-hidden">
               <img
                 className="w-full h-full bg-cover"
@@ -19,8 +22,12 @@ const Feature = () => {
               />
             </div>
           </div>
-          <div className="cardcontainer w-1/2 h-[80vh]  overflow-hidden ">
-            <div className="card w-full h-full rounded-xl ">
+          <div className=" relative cardcontainer w-1/2 h-[80vh]  ">
+            <h1 className="absolute text-[#CDEA68] z-[9] translate-x-1/2 top-1/2 -translate-y-1/2 right-full font-['TestFoundersGroteskX-Condensed'] font-bold leading-none tracking-tighter text-8xl">
+              {"VISE".split('').map((item,index) => <span>{item}</span>)}
+            </h1>
+
+            <div className="card w-full h-full rounded-xl overflow-hidden  ">
               <img
                 className="w-full h-full bg-cover"
                 src="https://ochi.design/wp-content/uploads/2025/08/Med_Website_0.png"
