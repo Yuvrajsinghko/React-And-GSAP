@@ -1,14 +1,26 @@
+import { motion } from "motion/react";
 import React from "react";
 import { MdArrowOutward } from "react-icons/md";
 const LandingPage = () => {
+  motion;
   return (
-    <div className="w-full h-screen bg-zinc-900 pt-1">
+    <div  data-scroll  data-scroll-section data-scroll-speed="-0.3" className="w-full h-screen bg-zinc-900 pt-1">
       <div className="textstructure mt-48 px-20">
         {["We create", "Eye Opening", "Presentation"].map((item, index) => {
           return (
             <div className="masker">
               <div className="w-fit flex items-center">
-                {index ===1 && (<div className=" mr-[1vw] w-[8.3vw] h-[5.5vw] bg-amber-600 rounded-md"></div>)}
+                {index === 1 && (
+                  <motion.div
+                    initial={{ width: 0 }}
+                    animate={{ width: "8.3vw" }}
+                    transition={{ ease: [0.76, 0, 0.24, 1],duration:1 }}
+                    
+                    className=" mr-[1vw] w-[8.3vw] h-[5.5vw] bg-amber-600 rounded-md overflow-hidden"
+                  >
+                    <img className="w-full h-full bg-cover" src="https://ochi.design/wp-content/uploads/2022/04/content-image01.jpg" alt="" />
+                  </motion.div>
+                )}
                 <h1 className='uppercase leading-[7vw]  text-[7vw] font-["TestFoundersGroteskX-Condensed"] font-bold'>
                   {item}
                 </h1>

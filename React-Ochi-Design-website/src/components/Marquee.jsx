@@ -1,16 +1,15 @@
-import React from 'react'
-import { motion } from "motion/react"
+import React from "react";
+import { motion } from "motion/react";
 const Marquee = () => {
-    motion
+  motion;
   return (
-    <div className='w-full  h-[550px] py-10 bg-[#004D43] rounded-t-3xl flex items-center'>
-        <div className="text border-t-2 border-b-2 border-zinc-300 flex whitespace-nowrap gap-10 overflow-hidden ">
-            <h1 className='text-[18vw] leading-[15vw] font-["FoundersGrotesk"] font-extrabold uppercase '>We are ochi</h1>
-            <h1 className='text-[18vw] leading-[15vw] font-["FoundersGrotesk"] font-extrabold uppercase '>We are ochi</h1>
-            
-        </div>
+    <div data-scroll data-scroll-section data-scroll-speed=".1" className="w-full  h-[550px] py-10 bg-[#004D43] rounded-t-3xl flex items-center">
+      <div className="text border-t-2 border-b-2 border-zinc-300 flex whitespace-nowrap overflow-hidden ">
+        <motion.h1 initial={{x:"0"}} animate={{x:"-100%"}} transition={{repeat:Infinity, ease:"linear",duration:10}} className='text-[18vw] leading-[15vw] font-["FoundersGrotesk"] font-extrabold uppercase  ml-5'>We are ochi</motion.h1>
+        <motion.h1 initial={{x:"0"}} animate={{x:"-100%"}} transition={{repeat:Infinity, ease:"linear",duration:10}}  className='text-[18vw] leading-[15vw] font-["FoundersGrotesk"] font-extrabold uppercase ml-5 '>We are ochi</motion.h1>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Marquee
+export default Marquee;
