@@ -1,4 +1,11 @@
 body{
-  background-color: darkgoldenrod;
+  background-color: #222;
   font-size: 5vw;
+}
+
+.box{
+  height: 400px;
+  width: 400px;
+  background-color: rgb(62, 178, 182);
+  border:3px solid white;
 }

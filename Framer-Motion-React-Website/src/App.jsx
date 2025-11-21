@@ -1,8 +1,12 @@
 import React from 'react'
 
+import {motion} from 'motion/react';
 function App() {
+  motion;
   return (
-    <div>App</div>
+    <div>
+      <motion.div className='box'></motion.div>
+    </div>
   )
 }
 
