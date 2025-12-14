@@ -1,10 +1,16 @@
-import React from 'react'
-import Stylecard from './components/Stylecard'
+import React from "react";
+import Button from "./components/Button";
+import Header from "./components/Header";
+
+
 
 function App() {
   return (
-   <Stylecard />
-  )
+    <div>
+      <Button />
+      <Header />
+    </div>
+  );
 }
 
-export default App
+export default App;

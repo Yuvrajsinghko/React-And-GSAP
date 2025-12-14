@@ -1,4 +1,25 @@
-body{
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html,body{
+  width: 100%;
+  height: 100%;
   background-color: black;
-  color: aquamarine;
+  
+}
+
+
+.btn{
+  position: relative;
+  margin-left: 29%;
+  font-size: 5vw;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: darkgoldenrod;
+  border:2px solid firebrick;
+  padding: 20px 10px;
 }
