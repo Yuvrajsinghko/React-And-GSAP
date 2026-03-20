@@ -1,13 +1,26 @@
-<!-- 🚀 HERO -->
+<!-- 🔥 HERO SECTION -->
 
-<h1 align="center">⚡ React • GSAP • Framer Motion Lab</h1>
+<h1 align="center">⚡ Motion-Driven Frontend Development</h1>
 
 <p align="center">
-  Exploring motion, interactions, and modern frontend animations through real projects & experiments.
+  Building immersive, animation-rich web experiences using React, GSAP & Framer Motion.
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=00F7FF&center=true&vCenter=true&lines=GSAP+Explorer;React+Frontend+Developer;Animation+Enthusiast" />
+  <img src="https://readme-typing-svg.herokuapp.com?color=00F7FF&center=true&vCenter=true&size=22&lines=React+Developer;GSAP+Specialist;Creative+Frontend+Engineer" />
+</p>
+
+<br/>
+
+<!-- 🎯 CTA BADGES -->
+
+<p align="center">
+  <a href="https://github.com/Yuvrajsinghko">
+    <img src="https://img.shields.io/badge/View%20Profile-000?style=for-the-badge&logo=github"/>
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/Live%20Projects-111?style=for-the-badge"/>
+  </a>
 </p>
 
 ---
@@ -15,117 +28,123 @@
 <!-- 🎥 HERO VISUAL -->
 
 <p align="center">
-  <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?q=80&w=1600&auto=format&fit=crop" width="100%" />
+  <img src="https://images.unsplash.com/photo-1518779578993-ec3579fee39f?q=80&w=1600&auto=format&fit=crop" width="100%" />
 </p>
 
 ---
 
-<!-- 🧊 CLEAN TECH LOGOS -->
+<!-- 🧊 TECH STRIP -->
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=react" height="65"/>
-  <img src="https://cdn.simpleicons.org/greensock/88CE02" height="65"/>
-  <img src="https://cdn.simpleicons.org/framer/0055FF" height="65"/>
-</p>
-
----
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:0f2027,100:2c5364&height=120&section=header&text=Animation%20Driven%20Development&fontSize=30&fontColor=ffffff"/>
-</p>
-
-<!-- 🏷️ BADGES -->
-
-<p align="center">
-  <img src="https://img.shields.io/badge/GSAP-Animation-black?style=for-the-badge&logo=greensock&logoColor=88CE02"/>
-  <img src="https://img.shields.io/badge/Framer-Motion-black?style=for-the-badge&logo=framer&logoColor=blue"/>
+  <img src="https://skillicons.dev/icons?i=react" height="60"/>
+  <img src="https://cdn.simpleicons.org/greensock/88CE02" height="60"/>
+  <img src="https://cdn.simpleicons.org/framer/0055FF" height="60"/>
 </p>
 
 ---
 
-## 🌌 About This Repository
+# 🚀 What This Repo Represents
 
-This is not just a project collection — it's a **learning journey into modern frontend animations**.
+A **hands-on journey into animation-driven frontend development**.
 
-Inside this repo, you'll find:
+Instead of just building static UIs, this repo focuses on:
 
-* 🎬 GSAP fundamentals (tweens, timelines, easing)
-* 📜 ScrollTrigger deep dives
-* 🧩 SVG animations & custom cursors
-* ⚛️ React + GSAP integrations
-* 🎯 Framer Motion experiments
-* 🌐 Interactive single-page websites
-
-Every folder reflects **hands-on exploration + real implementation**.
+* 🎬 Motion as a core design element
+* 🧠 Interaction-first development
+* ⚡ Performance-focused animations
+* 🎯 Real-world UI patterns
 
 ---
 
-## 🎯 What You'll Discover
+# 🎬 Animation Capabilities
 
-* ⚡ Smooth and performant animations
-* 🎬 Scroll-based storytelling (ScrollTrigger)
-* 🧠 Animation logic & sequencing
-* 🎨 Creative UI interactions
-* 🚀 Real-world animation use cases
+<table>
+<tr>
+<td width="50%">
+
+### ⚡ GSAP Mastery
+
+* Advanced timelines
+* ScrollTrigger animations
+* Smooth sequencing
+
+</td>
+
+<td width="50%">
+
+### ⚛️ React Integration
+
+* Component-based animations
+* Reusable UI logic
+* State-driven motion
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### 🎯 Framer Motion
+
+* Declarative animations
+* Gesture-based interactions
+* Layout transitions
+
+</td>
+
+<td width="50%">
+
+### 🎨 Creative UI
+
+* Custom cursors
+* SVG animations
+* Micro-interactions
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 🧪 Featured Work
 
-| Category          | Highlights                          |
-| ----------------- | ----------------------------------- |
-| 🎬 GSAP Basics    | Tweens, timelines, easing functions |
-| 📜 ScrollTrigger  | Scroll-based animations & pinning   |
-| 🎨 SVG Animations | Morphing & path animations          |
-| 🖱️ Custom Cursor | Interactive cursor effects          |
-| ⚛️ React + GSAP   | Component-based animations          |
-| 🎯 Framer Motion  | Modern animation workflows          |
 
----
+# 🧠 Learning + Building Approach
 
-## 🛠️ Tech Stack
+This repository follows a **learn → experiment → build** workflow:
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=react,js,css" />
-</p>
+* 📚 Learn animation concepts
+* 🧪 Experiment with small demos
+* 🚀 Apply in real UI projects
 
 ---
 
-## 🎬 Animation Stack
+# ⚙️ Run Locally
 
-* GSAP (GreenSock Animation Platform)
-* ScrollTrigger
-* Framer Motion
-* CSS Keyframes & Transitions
-
----
-
-## ⚙️ Run Locally
-
-```bash
+```bash id="m8c4j7"
 git clone https://github.com/Yuvrajsinghko/React-And-GSAP
 cd React-And-GSAP
 npm install
 npm run dev
 ```
 
----
-
-## 🚀 Future Goals
-
-* Build advanced storytelling animations
-* Combine GSAP + Three.js
-* Create production-level landing pages
-* Master motion design systems
 
 
+# 🤝 Let's Connect
 
-## 🤝 Connect With Me
-
-* GitHub: https://github.com/Yuvrajsinghko
-* LinkedIn: (Add your LinkedIn)
+<p align="center">
+  <a href="https://github.com/Yuvrajsinghko">
+    <img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github"/>
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin"/>
+  </a>
+</p>
 
 ---
 
-## ⭐ Support
+# ⭐ Final Note
 
-If you found this useful or inspiring, consider giving it a ⭐
+This isn’t just a repo.
+It’s a **visual playground for frontend motion design**.
+
+If you like it — give it a ⭐
